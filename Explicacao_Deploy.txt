@@ -1,0 +1,36 @@
+RELATORIO - DEPLOY DE SITE ESTATICO
+
+1. OBJETIVO
+Desenvolver uma pagina estatica simples utilizando HTML e CSS e preparar sua publicacao na Microsoft Azure.
+
+2. TECNOLOGIAS UTILIZADAS
+- HTML5 para a estrutura da pagina.
+- CSS3 para a estilizacao e responsividade.
+- Microsoft Azure como plataforma sugerida para hospedagem.
+
+3. ESTRUTURA DO PROJETO
+- index.html: contem toda a estrutura da pagina.
+- styles.css: contem a estilizacao visual do site.
+
+4. DESCRICAO DA PAGINA
+A pagina desenvolvida e um site institucional simples, contendo menu de navegacao, secao de apresentacao, secao sobre o projeto, area de servicos e contato. O layout e responsivo e pode ser acessado em computador e celular.
+
+5. PROCESSO DE DEPLOY NO AZURE STATIC WEB APPS
+1. Criar uma conta no portal Microsoft Azure.
+2. Criar um recurso do tipo Static Web App.
+3. Enviar os arquivos index.html e styles.css para o servico.
+4. Configurar a pasta principal do projeto como diretorio de publicacao.
+5. Apos a finalizacao, copiar a URL gerada automaticamente pelo Azure.
+
+6. ALTERNATIVA DE DEPLOY NO AZURE BLOB STORAGE
+1. Criar uma Storage Account no Azure.
+2. Ativar a opcao Static website nas configuracoes da conta.
+3. Enviar os arquivos do site para o conteiner $web.
+4. Utilizar o endpoint disponibilizado pelo servico para acessar o site publicado.
+
+7. LINK DO SITE
+Preencher apos publicar no Azure:
+Link: ____________________________________________
+
+8. CONCLUSAO
+O projeto atende ao objetivo solicitado, pois apresenta uma pagina estatica funcional em HTML/CSS e esta preparado para publicacao em ambiente de nuvem por meio da plataforma Microsoft Azure.
